@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(255, 241, 224);
+}
+
+p{
+    font-size: 25px;
+    color: #736d65;
+}
+
+.nav-item{
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.btn{
+    font-size: 20px;
+    color: white;
+    border-color: #e58127;
+    background-color: #e58127;
+}
+
+.row.ccard{
+    display: flex;
+}
+
+.column,.ccard{
+    flex: 15%;
+    width: 55%;
+}
+
+.recommend {
+    font-size: 1.3rem;
+    color: var(--color-grey-dark-3);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+   
+.recommend__friends {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+  
+.recommend__photo {
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+  
+.recommend__photo:not(:last-child) {
+    margin-right: -2rem;
+}
+
+.pagtitulo{
+    color: chocolate;
+    font-size: 1.30rem;
+    font-weight: bold;
+}
+
+.pagsubtitulo{
+    font-size: 3.75rem;
+    padding-bottom: 150px;
+}
+
+.numfuncionamento{
+    font-size: 6rem;
+    opacity: 50%;
+    color: darkgray;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card .card-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    pointer-events: none;
+}
+
+.card .card-image .card-caption {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #fff;
+    font-size: 1.3em;
+    text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.img-raised {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-vegetariana{
+    border-radius: 25px; 
+    color: black; 
+    font-size: 1rem;
+    margin-bottom: 10px;
+    background-color: green;
+    border: none;
+    box-shadow: 0 16px 38px -12px black;
+}
+
+.btn-vegan{
+    border-radius: 25px; 
+    color: black; 
+    font-size: 1rem;
+    margin-bottom: 10px;
+    background-color: yellowgreen;
+    border: none;
+    box-shadow: 0 16px 38px -12px black;
+}
+
+.btn-paleo{
+    border-radius: 25px; 
+    color: black; 
+    font-size: 1rem;
+    margin-bottom: 10px;
+    background-color: yellow;
+    border: none;
+    box-shadow: 0 16px 38px -12px black;
+}
